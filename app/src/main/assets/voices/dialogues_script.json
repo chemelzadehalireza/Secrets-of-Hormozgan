@@ -1,0 +1,661 @@
+{
+  "totalLines": 82,
+  "dialogues": [
+    {
+      "id": "intro_grandpa_letter",
+      "speakerName": "راوی",
+      "isAria": false,
+      "voiceProfile": "NARRATOR",
+      "text": "آریای عزیزم؛ در این سرزمین گنجی پنهان شده است. اما برای پیدا کردن آن باید سیزده راز را کشف کنی. هر شهرستان یک نشانه دارد و هر نشانه بخشی از یک حقیقت بزرگتر را آشکار می‌کند.",
+      "speakerKey": "narrator"
+    },
+    {
+      "id": "bsh_open_1",
+      "speakerName": "راوی",
+      "isAria": false,
+      "voiceProfile": "NARRATOR",
+      "text": "آریا با دیدن نخستین نشانه در دفترچه پدربزرگ، راهی کوهستان‌های بلند و بکر بشاگرد در شرق هرمزگان می‌شود.",
+      "speakerKey": "narrator"
+    },
+    {
+      "id": "bsh_open_2",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "چه هوای پاک و صخره‌های باشکوهی! روی نقشه پدربزرگ، علامت نخست درست کنار همین رودخانه و چشمه‌های کوهستانی است.",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "bsh_open_3",
+      "speakerName": "عمو باران",
+      "isAria": false,
+      "voiceProfile": "ELDER_MALE",
+      "text": "خوش آمدی مسافر جوان! من عمو باران هستم. بوی کاغذهای قدیمی دفترچه‌ات آشناست؛ پدربزرگت سال‌ها پیش مهمان کوهستان ما بود.",
+      "speakerKey": "amo_baran"
+    },
+    {
+      "id": "bsh_open_4",
+      "speakerName": "عمو باران",
+      "isAria": false,
+      "voiceProfile": "ELDER_MALE",
+      "text": "در بشاگرد، هر قطره آبِ باران و چشمه، جان تازه‌ای به درختان بنه و کهور می‌دهد. برای یافتن قطعه اول گنج، باید سه نشانه کوهستان را کشف کنی.",
+      "speakerKey": "amo_baran"
+    },
+    {
+      "id": "bsh_bye_1",
+      "speakerName": "عمو باران",
+      "isAria": false,
+      "voiceProfile": "ELDER_MALE",
+      "text": "آفرین آریا! تو فهمیدی که کوهستانِ به‌ظاهر خاموش، پر از هوشمندی طبیعت در هدایت آب است. نخستین قطعه گنج از آنِ توست.",
+      "speakerKey": "amo_baran"
+    },
+    {
+      "id": "bsh_bye_2",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "ممنونم عمو باران! این قطعه را در دفترچه ثبت می‌کنم و به سوی نخلستان‌های میناب و دشت بهشت رودان حرکت می‌کنم.",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "bsh_m1_1",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "این تابلوی سنگی چند راه کوهستانی را نشان می‌دهد. باید مسیر ایمن را بدون نزدیک شدن به پرتگاه‌ها پیدا کنم.",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "bsh_m2_1",
+      "speakerName": "عمو باران",
+      "isAria": false,
+      "voiceProfile": "ELDER_MALE",
+      "text": "آریا، آب چشمه فقط وقتی به درختان کهور می‌رسد که سنگ‌های آبراهه را به ترتیب درست از ارتفاع بلند به پایین بچینی.",
+      "speakerKey": "amo_baran"
+    },
+    {
+      "id": "bsh_m3_1",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "دفترچه پدربزرگ می‌گوید نشان نهایی این منطقه پشت یکی از پدیده‌های صخره‌ای همین گوشه پنهان شده است. باید با دقت نگاه کنم!",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "min_open_1",
+      "speakerName": "خاله زرین",
+      "isAria": false,
+      "voiceProfile": "ELDER_FEMALE",
+      "text": "به شهر نخل و لیمو خوش آمدی آریا جان! من خاله زرین هستم. صدای پنجشنبه‌بازار میناب از دور هم به گوش می‌رسد.",
+      "speakerKey": "khale_zarin"
+    },
+    {
+      "id": "min_open_2",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "چه نخلستان‌های سرسبزی خاله زرین! پدربزرگ نوشته کلید راز دوم در طرح‌های حصیربافی و باغ‌های میناب پنهان شده است.",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "min_bye_1",
+      "speakerName": "خاله زرین",
+      "isAria": false,
+      "voiceProfile": "ELDER_FEMALE",
+      "text": "دست مریزاد پسرم! مثل یک استاد واقعی گره کار را گشودی. قطعه دوم گنج یادگار دست‌رنج مردم میناب است.",
+      "speakerKey": "khale_zarin"
+    },
+    {
+      "id": "min_m1_1",
+      "speakerName": "خاله زرین",
+      "isAria": false,
+      "voiceProfile": "ELDER_FEMALE",
+      "text": "برای بافتن این زیرانداز زیبا، برگ‌های نخل را طوری بچین که الگوی ضربدری چهارگوشه کامل شود.",
+      "speakerKey": "khale_zarin"
+    },
+    {
+      "id": "min_m2_1",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "در باغ مرکبات و نخل، هر کاری ترتیب علمی و تجربی خودش را دارد. بیایید مراحل را درست بچینیم.",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "min_m3_1",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "اینجا کنار بقایای قدیمی، یادداشت پدربزرگ درباره تاریخ میناب باز شده است.",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "rud_open_1",
+      "speakerName": "استاد بهرام",
+      "isAria": false,
+      "voiceProfile": "ADULT_MALE",
+      "text": "سلام آریا! به رودان که مردم به آن دشت بهشت می‌گویند خوش آمدی. عطر شکوفه‌های انبه و لیمو همه جا پیچیده است.",
+      "speakerKey": "ostad_bahram"
+    },
+    {
+      "id": "rud_open_2",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "باورم نمی‌شود! این همه درخت انبه و آبشار در جنوب ایران! پدربزرگ نوشته باید راز خاک پربرکت رودان را کشف کنم.",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "rud_bye_1",
+      "speakerName": "استاد بهرام",
+      "isAria": false,
+      "voiceProfile": "ADULT_MALE",
+      "text": "آفرین آریا! کشاورزِ آینده کسی است که زمین را خسته نکند و با طبیعت دوست باشد. قطعه سوم گنج مبارک تو باشد.",
+      "speakerKey": "ostad_bahram"
+    },
+    {
+      "id": "rud_m1_1",
+      "speakerName": "استاد بهرام",
+      "isAria": false,
+      "voiceProfile": "ADULT_MALE",
+      "text": "آب در تابستان‌های جنوب بسیار باارزش است. به نظرت کدام روش به باغ انبه بیشترین کمک را می‌کند؟",
+      "speakerKey": "ostad_bahram"
+    },
+    {
+      "id": "rud_m2_1",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "این دیوارهای بلند قلعه کمیز از سده‌های دور باقی مانده‌اند. چه منظره‌ای به کل دشت دارد!",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "rud_m3_1",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "باید جعبه کوچک بذر را که استاد بهرام اشاره کرد در باغ پیدا کنم.",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "sir_open_1",
+      "speakerName": "ناخدا سهراب",
+      "isAria": false,
+      "voiceProfile": "ADULT_MALE",
+      "text": "سلام به مسافر دریا! من ناخدا سهرابم. اینجا خور آذینی در سیریک است؛ جایی که درختان حرا پا در آب شور دارند.",
+      "speakerKey": "nakhoda_sohrab"
+    },
+    {
+      "id": "sir_open_2",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "شگفت‌انگیز است! درختان سبز درست وسط آب دریا رشد کرده‌اند و پرنده‌های مهاجر روی شاخه‌هایشان نشسته‌اند.",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "sir_bye_1",
+      "speakerName": "ناخدا سهراب",
+      "isAria": false,
+      "voiceProfile": "ADULT_MALE",
+      "text": "راه دریا را خوب شناختی آریا! حالا می‌توانی از ساحل سیریک به سوی کوه‌های شگفت‌انگیز جاسک سفر کنی.",
+      "speakerKey": "nakhoda_sohrab"
+    },
+    {
+      "id": "sir_m1_1",
+      "speakerName": "ناخدا سهراب",
+      "isAria": false,
+      "voiceProfile": "ADULT_MALE",
+      "text": "در جزر دریا، باید مسیر کانال‌های پرآب را انتخاب کنیم تا قایق به ریشه درختان حرا آسیب نزند.",
+      "speakerKey": "nakhoda_sohrab"
+    },
+    {
+      "id": "sir_m2_1",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "روی ساحل سیریک جای پای لاک‌پشت‌های دریایی دیده می‌شود. باید قوانین حفاظت از زیستگاهشان را رعایت کنیم.",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "sir_m3_1",
+      "speakerName": "ناخدا سهراب",
+      "isAria": false,
+      "voiceProfile": "ADULT_MALE",
+      "text": "می‌خواهیم بویه راهنمای اسکله را با انرژی خورشیدی روشن کنیم طوری که به لاک‌پشت‌ها آسیبی نرساند.",
+      "speakerKey": "nakhoda_sohrab"
+    },
+    {
+      "id": "jas_open_1",
+      "speakerName": "ماهان",
+      "isAria": false,
+      "voiceProfile": "YOUTH_MALE",
+      "text": "سلام آریا! من ماهان هستم. نگاه کن، اینجا جاده ساحلی جاسک است؛ صخره‌های فرسایش‌یافته‌اش انگار تکه‌ای از سیاره مریخ هستند!",
+      "speakerKey": "mahan"
+    },
+    {
+      "id": "jas_open_2",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "وای! خط‌خطی‌های منظم روی این صخره‌ها را ببین ماهان! چطور این کوه‌های مینیاتوری شکل گرفته‌اند؟",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "jas_bye_1",
+      "speakerName": "ماهان",
+      "isAria": false,
+      "voiceProfile": "YOUTH_MALE",
+      "text": "فوق‌العاده بود آریا! زمین‌شناسی مثل یک کتاب باز است که راز میلیون‌ها سال را در سنگ‌ها نوشته. قطعه پنجم مال توست!",
+      "speakerKey": "mahan"
+    },
+    {
+      "id": "jas_m1_1",
+      "speakerName": "ماهان",
+      "isAria": false,
+      "voiceProfile": "YOUTH_MALE",
+      "text": "اگر به بافت خاک و شیارهای عمودی این صخره‌ها دست بزنی، فوری می‌فهمی چطور ساخته شده‌اند.",
+      "speakerKey": "mahan"
+    },
+    {
+      "id": "jas_m2_1",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "از این دماغه می‌توان وسعت بی‌انتهای دریای عمان را دید. بیایید جهت جغرافیایی‌اش را در دفترچه ثبت کنیم.",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "jas_m3_1",
+      "speakerName": "ماهان",
+      "isAria": false,
+      "voiceProfile": "YOUTH_MALE",
+      "text": "جاسک یکی از قدیمی‌ترین ایستگاه‌های تلگراف ساحلی ایران را داشته. ببین می‌توانی نشانه کوچک آن را پیدا کنی؟",
+      "speakerKey": "mahan"
+    },
+    {
+      "id": "bnd_open_1",
+      "speakerName": "دکتر دریا",
+      "isAria": false,
+      "voiceProfile": "ADULT_FEMALE",
+      "text": "خوش آمدی آریا! اینجا قلب تپنده استان هرمزگان، بندرعباس است؛ شهری که از قدیم محل گفت‌وگوی فرهنگ‌ها و تجارت دریایی بوده.",
+      "speakerKey": "dr_darya"
+    },
+    {
+      "id": "bnd_open_2",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "سلام خانم دکتر! پدربزرگ در دفترچه‌اش از برکه‌های باران، معبد هندوها و چشمه کوه گنو یاد کرده است.",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "bnd_bye_1",
+      "speakerName": "دکتر دریا",
+      "isAria": false,
+      "voiceProfile": "ADULT_FEMALE",
+      "text": "آفرین آریا! بندرعباس به تو آموخت که دانش ذخیره آب و همزیستی فرهنگی چگونه یک شهر را ماندگار می‌کند.",
+      "speakerKey": "dr_darya"
+    },
+    {
+      "id": "bnd_m1_1",
+      "speakerName": "دکتر دریا",
+      "isAria": false,
+      "voiceProfile": "ADULT_FEMALE",
+      "text": "به این گنبدهای سفید تاریخی نگاه کن؛ نیاکان ما بدون برق، آب باران را ماه‌ها خنک و گوارا نگه می‌داشتند.",
+      "speakerKey": "dr_darya"
+    },
+    {
+      "id": "bnd_m2_1",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "معبد هندوها با ساروج و سنگ مرجانی ساخته شده و یادگار دادوستد مسالمت‌آمیز بازرگانان است.",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "bnd_m3_1",
+      "speakerName": "دکتر دریا",
+      "isAria": false,
+      "voiceProfile": "ADULT_FEMALE",
+      "text": "از ساحل که به شمال بندرعباس نگاه کنی، کوه سربلند گنو را می‌بینی که زیستگاه جانوران کوهستانی کمیاب است.",
+      "speakerKey": "dr_darya"
+    },
+    {
+      "id": "qsh_open_1",
+      "speakerName": "کاپیتان رهام",
+      "isAria": false,
+      "voiceProfile": "ADULT_MALE",
+      "text": "به بزرگ‌ترین جزیره خلیج فارس و نخستین ژئوپارک جهانی یونسکو در خاورمیانه خوش آمدی آریا! من رهام هستم.",
+      "speakerKey": "captain_roham"
+    },
+    {
+      "id": "qsh_open_2",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "وای! ستون‌های صخره‌ای دره ستارگان و دیواره‌های تراش‌خورده تنگه چاهکوه مثل یک سیاره افسانه‌ای هستند!",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "qsh_bye_1",
+      "speakerName": "کاپیتان رهام",
+      "isAria": false,
+      "voiceProfile": "ADULT_MALE",
+      "text": "عالی بود آریا! حالا می‌دانی چرا ژئوپارک قشم گنجینه‌ای جهانی برای علم زمین‌شناسی است. این هم قطعه هفتم گنج!",
+      "speakerKey": "captain_roham"
+    },
+    {
+      "id": "qsh_m1_1",
+      "speakerName": "کاپیتان رهام",
+      "isAria": false,
+      "voiceProfile": "ADULT_MALE",
+      "text": "مردم قدیم می‌گفتند ستاره‌ای به زمین افتاده و دره را ساخته، اما علم زمین‌شناسی راز دقیق‌تری دارد.",
+      "speakerKey": "captain_roham"
+    },
+    {
+      "id": "qsh_m2_1",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "اینجا در بندر لافت، در دل جزیره‌ای میان آب شور دریا، چاه‌های آب شیرین تلا قرار دارند!",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "qsh_m3_1",
+      "speakerName": "کاپیتان رهام",
+      "isAria": false,
+      "voiceProfile": "ADULT_MALE",
+      "text": "غار نمکدان قشم به عنوان طولانی‌ترین غار نمکی شناخته‌شده جهان، بلورهای منظم و شگفت‌انگیزی دارد.",
+      "speakerKey": "captain_roham"
+    },
+    {
+      "id": "khm_open_1",
+      "speakerName": "خانم ساحل",
+      "isAria": false,
+      "voiceProfile": "ADULT_FEMALE",
+      "text": "سلام آریا! من ساحل هستم. به تالاب بین‌المللی خورخوران در بندرخمیر، بزرگ‌ترین جنگل دریایی حرای ایران خوش آمدی.",
+      "speakerKey": "sahel"
+    },
+    {
+      "id": "khm_open_2",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "چطور درختان حرا می‌توانند آب شور خلیج فارس را بنوشند و سبز بمانند؟!",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "khm_bye_1",
+      "speakerName": "خانم ساحل",
+      "isAria": false,
+      "voiceProfile": "ADULT_FEMALE",
+      "text": "عالی بود آریا! دانش پالایش زیستی درختان حرا، الهام‌بخش علم امروز است. قطعه هشتم گنج از آنِ توست!",
+      "speakerKey": "sahel"
+    },
+    {
+      "id": "khm_m1_1",
+      "speakerName": "خانم ساحل",
+      "isAria": false,
+      "voiceProfile": "ADULT_FEMALE",
+      "text": "اگر با ذره‌بین به پشت برگ حرا و ریشه‌های عمودی بیرون‌آمده از گل نگاه کنی، جواب معما را می‌بینی.",
+      "speakerKey": "sahel"
+    },
+    {
+      "id": "khm_m2_1",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "برای اینکه پرنده‌های مهاجر و دلفین‌ها همیشه به خورخوران برگردند، باید توازن گردشگری را درست تنظیم کنیم.",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "khm_m3_1",
+      "speakerName": "خانم ساحل",
+      "isAria": false,
+      "voiceProfile": "ADULT_FEMALE",
+      "text": "بذر حرا روی خود درخت جوانه می‌زند و بعد در گل‌ولای ساحل می‌نشیند. یکی را پیدا کن تا نشانه‌گذاری کنیم.",
+      "speakerKey": "sahel"
+    },
+    {
+      "id": "haj_open_1",
+      "speakerName": "عمو صابر",
+      "isAria": false,
+      "voiceProfile": "ELDER_MALE",
+      "text": "خوش آمدی پسرم! به شمالی‌ترین دروازه هرمزگان، حاجی‌آباد رسیدی. صدای آبشار تزرج در میان نخلستان‌ها شنیدنی است.",
+      "speakerKey": "amo_saber"
+    },
+    {
+      "id": "haj_open_2",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "چه منظره شگفت‌انگیزی عمو صابر! یک آبشار خنک درست کنار نخل‌های گرمسیری و یک آسیاب آبی قدیمی!",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "haj_bye_1",
+      "speakerName": "عمو صابر",
+      "isAria": false,
+      "voiceProfile": "ELDER_MALE",
+      "text": "آفرین آریا! با انرژی پاک آب، چرخ آسیاب و امید روستا را به گردش درآوردی. قطعه نهم گنج مبارک تو باشد.",
+      "speakerKey": "amo_saber"
+    },
+    {
+      "id": "haj_m1_1",
+      "speakerName": "عمو صابر",
+      "isAria": false,
+      "voiceProfile": "ELDER_MALE",
+      "text": "آسیاب آبی قدیمی نه دود دارد و نه سوخت فسیلی مصرف می‌کند؛ فقط با نیروی آب جاری می‌چرخد و بعد آب دوباره به نخل‌ها می‌رسد.",
+      "speakerKey": "amo_saber"
+    },
+    {
+      "id": "haj_m2_1",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "بیایید مسیر آب را از کوهستان شمالی تا پای نخلستان تزرج بر اساس ارتفاع طبیعی مرتب کنیم.",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "haj_m3_1",
+      "speakerName": "عمو صابر",
+      "isAria": false,
+      "voiceProfile": "ELDER_MALE",
+      "text": "پدربزرگت کنار همین آسیاب و قلعه کهن، یک سنگ یادگار کوچک پنهان کرده بود.",
+      "speakerKey": "amo_saber"
+    },
+    {
+      "id": "bas_open_1",
+      "speakerName": "استاد فرهاد",
+      "isAria": false,
+      "voiceProfile": "ADULT_MALE",
+      "text": "سلام آریا! به بستک، سرزمین بادگیرهای اصیل جنوب خوش آمدی. من فرهاد هستم و روی مرمت کاروانسرا و خانه‌های تاریخی کار می‌کنم.",
+      "speakerKey": "ostad_farhad"
+    },
+    {
+      "id": "bas_open_2",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "با اینکه هوا بیرون گرم است، داخل این خانه قدیمی کاملاً خنک است! رازش همین بادگیرهاست؟",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "bas_bye_1",
+      "speakerName": "استاد فرهاد",
+      "isAria": false,
+      "voiceProfile": "ADULT_MALE",
+      "text": "تو علم معماری هم‌ساز با اقلیم را عالی فهمیدی آریا! قطعه دهم گنج یادگار بادگیرهای بستک است.",
+      "speakerKey": "ostad_farhad"
+    },
+    {
+      "id": "bas_m1_1",
+      "speakerName": "استاد فرهاد",
+      "isAria": false,
+      "voiceProfile": "ADULT_MALE",
+      "text": "نسیم در ارتفاع چند متری خنک‌تر و تمیزتر از سطح کوچه است. بادگیر دقیقاً همین نسیم را شکار می‌کند!",
+      "speakerKey": "ostad_farhad"
+    },
+    {
+      "id": "bas_m2_1",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "این پنجره‌های مشبک نور شدید آفتاب را می‌شکنند و سایه‌روشن زیبایی می‌سازند. باید الگوی متقارنش را کامل کنم.",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "bas_m3_1",
+      "speakerName": "استاد فرهاد",
+      "isAria": false,
+      "voiceProfile": "ADULT_MALE",
+      "text": "معماری بستک فقط به خانه محدود نیست؛ احترام به کوهستان و منطقه گوده بخش مهمی از فرهنگ ماست.",
+      "speakerKey": "ostad_farhad"
+    },
+    {
+      "id": "len_open_1",
+      "speakerName": "بانو مهرنوش",
+      "isAria": false,
+      "voiceProfile": "ELDER_FEMALE",
+      "text": "خوش آمدی آریا جان! به بندرلنگه، شهر خانه‌های فکری و مختاری و دریانوردان بااصالت خوش آمدی.",
+      "speakerKey": "banoo_mehrnoosh"
+    },
+    {
+      "id": "len_open_2",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "گچ‌بری‌های ظریف و پنجره‌های رنگی خانه فکری فوق‌العاده‌اند! اینجا بوی تاریخ دریانوردی می‌دهد.",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "len_bye_1",
+      "speakerName": "بانو مهرنوش",
+      "isAria": false,
+      "voiceProfile": "ELDER_FEMALE",
+      "text": "سفرت پر از آگاهی باشد پسرم! قطعه یازدهم گنج، یادگار هنر دریانوردی و معماری بندرلنگه است.",
+      "speakerKey": "banoo_mehrnoosh"
+    },
+    {
+      "id": "len_m1_1",
+      "speakerName": "بانو مهرنوش",
+      "isAria": false,
+      "voiceProfile": "ELDER_FEMALE",
+      "text": "ناخداهای قدیم بندرلنگه با ستاره‌ها و جهت باد راه دریا را پیدا می‌کردند.",
+      "speakerKey": "banoo_mehrnoosh"
+    },
+    {
+      "id": "len_m2_1",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "چقدر باد در حیاط خانه فکری خنک می‌چرخد! حتماً رازش در همین ایوان‌هاست.",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "len_m3_1",
+      "speakerName": "بانو مهرنوش",
+      "isAria": false,
+      "voiceProfile": "ELDER_FEMALE",
+      "text": "یک یادگار برنجی در حیاط خانه فکری منتظر توست، دقیق نگاه کن!",
+      "speakerKey": "banoo_mehrnoosh"
+    },
+    {
+      "id": "par_open_1",
+      "speakerName": "کیانوش",
+      "isAria": false,
+      "voiceProfile": "YOUTH_MALE",
+      "text": "سلام آریا! من کیانوشم. به غربی‌ترین دروازه هرمزگان، شهرستان پارسیان خوش آمدی؛ جایی که کوهستان زاگرس درست تا لب آب‌های خلیج فارس می‌آید!",
+      "speakerKey": "kianoosh"
+    },
+    {
+      "id": "par_open_2",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "تماشای صخره‌های ساحل مکسر و آب خنک تنگه بوچیر واقعاً شگفت‌انگیز است!",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "par_bye_1",
+      "speakerName": "کیانوش",
+      "isAria": false,
+      "voiceProfile": "YOUTH_MALE",
+      "text": "آفرین! فقط یک جزیره نیلگون باقی مانده تا سیزدهمین راز هم کامل شود. راهی ابوموسی شو آریا!",
+      "speakerKey": "kianoosh"
+    },
+    {
+      "id": "par_m1_1",
+      "speakerName": "کیانوش",
+      "isAria": false,
+      "voiceProfile": "YOUTH_MALE",
+      "text": "در تنگه بوچیر باید مسیرهای کم‌لغزش و امن را انتخاب کنی تا به چشمه زلال برسی.",
+      "speakerKey": "kianoosh"
+    },
+    {
+      "id": "par_m2_1",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "نگاه کن موج‌های دریا چطور سنگ‌های کنار ساحل را مثل مجسمه تراش داده‌اند!",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "par_m3_1",
+      "speakerName": "کیانوش",
+      "isAria": false,
+      "voiceProfile": "YOUTH_MALE",
+      "text": "زیبایی بوچیر و ساحل مکسر وقتی ماندگار می‌ماند که هر مسافری حافظ آن باشد.",
+      "speakerKey": "kianoosh"
+    },
+    {
+      "id": "abu_open_1",
+      "speakerName": "ناخدا آرش",
+      "isAria": false,
+      "voiceProfile": "ADULT_MALE",
+      "text": "خوش آمدی قهرمان کوچک! من ناخدا آرش هستم. اینجا جزیره ابوموسی است؛ جنوبی‌ترین نگین آب‌های نیلگون و شفاف خلیج فارس.",
+      "speakerKey": "nakhoda_arash"
+    },
+    {
+      "id": "abu_open_2",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "باورنکردنیه! آب دریا آن‌قدر شفاف و تمیز است که مرجان‌ها و ماهی‌های رنگارنگ زیر موج‌ها دیده می‌شوند!",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "abu_bye_1",
+      "speakerName": "ناخدا آرش",
+      "isAria": false,
+      "voiceProfile": "ADULT_MALE",
+      "text": "تبریک آریا! تو هر ۱۳ راز سرزمین هرمزگان را کشف کردی. حالا وقت آن است که قطعات دفترچه را کنار هم بگذاری!",
+      "speakerKey": "nakhoda_arash"
+    },
+    {
+      "id": "abu_m1_1",
+      "speakerName": "ناخدا آرش",
+      "isAria": false,
+      "voiceProfile": "ADULT_MALE",
+      "text": "آب‌های گرم و شفاف اینجا خانه آبسنگ‌های مرجانی است. اهمیتشان را می‌دانی؟",
+      "speakerKey": "nakhoda_arash"
+    },
+    {
+      "id": "abu_m2_1",
+      "speakerName": "آریا",
+      "isAria": true,
+      "voiceProfile": "ARIA",
+      "text": "در یک جزیره دورافتاده، فناوری پاک مثل نور خورشید و انرژی موج بهترین دوست زندگی مردم است.",
+      "speakerKey": "aria"
+    },
+    {
+      "id": "abu_m3_1",
+      "speakerName": "ناخدا آرش",
+      "isAria": false,
+      "voiceProfile": "ADULT_MALE",
+      "text": "پدربزرگت آخرین نشانه را همین‌جا، کنار آب‌های زلال اسکله به یادگار گذاشت. پیدایش کن آریا!",
+      "speakerKey": "nakhoda_arash"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "هرمزگان؛ سرزمین رازهای پنهان",
+  "description": "بازی ماجراجویی و معمایی دوبعدی کارتونی درباره سفر آریا در ۱۳ شهرستان استان هرمزگان برای کشف دانشنامه آینده هرمزگان",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
